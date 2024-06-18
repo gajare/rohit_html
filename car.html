@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .car {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            overflow: hidden;
+        }
+        .car img {
+            max-width: 40%;
+            height: auto;
+            border-radius: 5px 0 0 5px;
+        }
+        .car-info {
+            padding: 20px;
+        }
+        .car-info h2 {
+            margin-top: 0;
+        }
+        .car-info p {
+            margin: 10px 0;
+        }
+        .car-info .price {
+            font-weight: bold;
+            font-size: 20px;
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="car">
+            <img src="car1.jpg" alt="Car 1">
+            <div class="car-info">
+                <h2>Car Model 1</h2>
+                <p>Color: <span style="color: red;">Red</span></p>
+                <p class="price">$30,000</p>
+            </div>
+        </div>
+        <div class="car">
+            <img src="car2.jpeg" alt="Car 2">
+            <div class="car-info">
+                <h2>Car Model 2</h2>
+                <p>Color: <span style="color: blue;">Blue</span></p>
+                <p class="price">$25,000</p>
+            </div>
+        </div>
+        <!-- Add more cars as needed -->
+    </div>
+</body>
+</html>
